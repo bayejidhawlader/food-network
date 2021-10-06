@@ -1,0 +1,236 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+     /* HEADER */
+    /* HEADER BANNER */
+    .banner-header {
+        padding: 20px 0;
+    }
+    .banner-left h1 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-right: 0px;
+    }
+    .banner-left p {
+        line-height: 23px;
+        margin-right: 0px;
+    }
+    .banner-right {
+        margin-top: 20px;
+    }
+
+
+
+    /* SERVICE */
+    .service {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .service-single {
+        margin-bottom: 10px;
+    }
+
+
+
+    /* COURSES */
+    .course {
+        padding-bottom: 30px;
+    }
+    .course h2 {
+        font-size: 20px;
+    }
+    .single-course {
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding: 20px 20px;
+    }
+
+
+
+    /* TESTIMONIAL */
+    .testemonial {
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .testemonial-img {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .testemonial-content p {
+        text-align: center;
+    }
+
+
+
+    /* FOOTER */
+    footer{
+        padding-bottom: 20px;
+    }
+    .footer-link {
+        margin-top: 20px;
+        /* text-align: center; */
+    }
+    .footer-bottom {
+        margin-top: 0;
+    }
+    
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   /* HEADER */
+    /* HEADER BANNER */
+    .banner-header {
+        padding: 30px 0;
+    }
+    .banner-left h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-right: 0px;
+    }
+    .banner-left p {
+        line-height: 20px;
+        margin-right: 0px;
+    }
+    .banner-right {
+        margin-top: 20px;
+    }
+
+
+
+    /* SERVICE */
+    .service {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    .service-single {
+        margin-bottom: 10px;
+    }
+
+
+
+    /* COURSES */
+    .course {
+        /* padding: 60px 0; */
+        margin-bottom: 30px;
+    }
+    .course h2 {
+        font-size: 30px;
+    }
+    .single-course {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 100px 100px;
+    }
+
+
+
+
+    /* TESTIMONIAL */
+    .testemonial {
+        padding-bottom: 30px;
+    }
+    .testemonial-img {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .testemonial-content p {
+        text-align: center;
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* HEADER */
+    /* HEADER BANNER */
+    .banner-header {
+        padding: 35px 0;
+    }
+    .banner-left h1 {
+        font-size: 38px;
+        line-height: 40px;
+        margin-right: 0px;
+    }
+    .banner-left p {
+        line-height: 23px;
+        margin-right: 0px;
+    }
+
+
+    /* SERVICE */
+    .service {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .service-single {
+        margin-bottom: 10px;
+    }
+
+
+    /* COURSES */
+
+    .course {
+        padding: 35px 0;
+    }
+    .single-course.third-course {
+        margin-top: 20px;
+    }
+
+
+
+    /* TESTIMONIAL */
+    .testemonial-img {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .testemonial-content p {
+        text-align: center;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* HEADER */
+    /* HEADER BANNER */
+    .banner-left h1 {
+        margin-right: 30px;
+    }
+    .banner-left p {
+        margin-right: 50px;
+    }
+
+
+    /* COURSES */
+    .single-course {
+        margin-right: 0;
+        padding: 20px 20px;
+    }
+
+
+
+    /* TESTIMONIAL */
+    .testemonial-img {
+        margin-left: 70px;
+    }
+    .testemonial-content p {
+        margin-top: 0px;
+    }
+}
+
+/* large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* HEADER BANNER */
+    .banner-left p {
+        margin-right: 240px;
+    }
+   
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+   
+}
