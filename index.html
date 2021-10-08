@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="en">
-  <head>
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <!-- CSS LINKS -->
     <link rel="stylesheet" href="css/all.min.css">
@@ -17,188 +20,132 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
-    <title>Figma To Html</title>
+    <title>Food Network</title>
   </head>
   <body>
+
+    <!-- TOP HRAADER -->
+    <div class="container-fluid top-header">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h2 class="text-center">50% Off & Free Shipping For All Orders</h2>
+        </div>
+      </div>
+    </div>
     <!-- HEADER -->
     <header>
-      <div class="container">
-        <!-- Header Logo & Menu -->
+      <div class="container p-0">
         <nav class="navbar navbar-expand-lg navbar-light custom-navber">
-          <div class="container-fluid">
 
-            <!-- Logo -->
-            <a class="navbar-brand logo" href="index.html">
-              <img src="img/Group.png" class="img-fluid" alt="Figma To Html">
+            <!-- Logo Text -->
+            <a class="navbar-brand logo me-0" href="#">
+              <h1>FOOD <span>NETWORK</span></h1>
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            
+
+            <!-- Collaps Right Button -->
+            <button class="navbar-toggler custom-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navberContent" aria-controls="navberContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse menu" id="navbarContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <div class="collapse navbar-collapse justify-content-center menu" id="navberContent">
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Books</a>
+                  <a class="nav-link" href="#">About</a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="#">course</a>
+                  <a class="nav-link" href="#">feature</a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="#">others</a>
+                  <a class="nav-link" href="#">Recipies</a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="#">blog</a>
+                  <a class="nav-link" href="#">Contact</a>
                 </li>
+
                 <li class="nav-item">
-                  <button class="btn btn-success">Sing In</button>
+                  <a class="nav-link" href="#">Help</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Cart Menu -->
+            <div class="cart-menu">
+              <ul class="navbar-nav">
+
+                <li class="nav-item">
+                  <a href="#"><img src="images/header-icon/search.png" alt="" class="img-fluid"></a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#"><img src="images/header-icon/shopping-cart.png" alt="" class="img-fluid"></a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#"><img src="images/header-icon/user.png" alt="" class="img-fluid"></a>
                 </li>
 
               </ul>
             </div>
-          </div>
-        </nav>
-      
 
-      <!-- HEADER BANNER -->
-       <div class="banner-header">
-        <div class="row">
-          <div class="col-xl-7 col-lg-6 col-md-6 col-sm-12">
-            <div class="banner-left">
-              <h6>Are you ready to Learn?</h6>
-              <h1>Learn With fun on <span>any schedule</span></h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
-              <button class="btn btn-success">Get Started</button>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12">
-            <div class="banner-right">
-              <img src="img/Frame.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        </div>
-       </div>
+        </nav>
       </div>
     </header>
 
 
-    <!-- SERVICE -->
-    <section class="service">
+
+    <!-- BANNER -->
+    <section class="banner">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <!-- SIngle Service -->
-            <div class="service-single">
-              <img src="img/image-1.png" class="img-fluid" alt="">
-              <h4 class=" mt-4">1500+ Topic</h4>
-              <p>Learn Anythings</p>
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6 col-md-6">
+            <!-- Banner Left -->
+            <div class="banner-left">
+              <h1><span>Skip</span> The Diet, Just Eat Healthy With Food Network</h1>
+              <p>Imagine you don't need a diet because we provide 
+                healthy and delicious food for you!</p>
+              <button class="btn">Order Now</button>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <!-- SIngle Service -->
-            <div class="service-single second-service">
-              <img src="img/image-2.png" class="img-fluid" alt="">
-              <h4 class=" mt-4">1500+ Topic</h4>
-              <p>Learn Anythings</p>
+          <div class="col-xl-6 col-lg-6 col-md-6 d-sm-block d-none">
+            <!-- Banner Right -->
+            <div class="banner-right">
+              <img src="images/female/Group8425.png" alt="" class="img-fluid">
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <!-- SIngle Service -->
-            <div class="service-single">
-              <img src="img/image-3.png" class="img-fluid" alt="">
-              <h4 class=" mt-4">1500+ Topic</h4>
-              <p>Learn Anythings</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <!-- SIngle Service -->
-            <div class="service-single">
-              <img src="img/image-4.png" class="img-fluid" alt="">
-              <h4 class=" mt-4">1500+ Topic</h4>
-              <p>Learn Anythings</p>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
 
+    
 
-    <!-- 
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    padding: 8px 24px;
-    border-radius: 50px;
-      
-     -->
-
-
-    <!-- COURSES -->
-    <section class="course">
+    <!-- ABOUT -->
+    <section class="about">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4"></div>
-          <div class="col-lg-4">
-            <h2 class="text-center">Online Courses</h2>
-          </div>
-          <div class="col-lg-4"></div>
-        </div>
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <!-- Single Course -->
-            <div class="single-course">
-              <img src="img/Rectangle 6.jpg" class="img-fluid" alt="">
-              <h4 class="mt-4">Modern Psychology</h4>
-              <p>Designation</p>
-              <button class="btn btn-success">Buy Course</button>
-              <ul class="course-link mt-4">
-                <li>
-                  <i class="fas fa-calendar-week"><span>Start 20  April, 2021</span></i>
-                </li>
-                <li>
-                  <i class="fas fa-user-friends"><span>60 seats</span></i>
-                </li>
-              </ul>
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6 col-md-6 d-md-block d-none">
+            <!-- About Left -->
+            <div class="about-left">
+              <img src="images/female/mew.png" alt="" class="img-fluid w-100">
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
-            <!-- Single Course -->
-            <div class="single-course">
-              <img src="img/Rectangle 13.jpg" class="img-fluid" alt="">
-              <h4 class="mt-4">Modern Psychology</h4>
-              <p>Designation</p>
-              <button class="btn btn-success">Buy Course</button>
-              <ul class="course-link mt-4">
-                <li>
-                  <i class="fas fa-calendar-week"><span>Start 20  April, 2021</span></i>
-                </li>
-                <li>
-                  <i class="fas fa-user-friends"><span>60 seats</span></i>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <!-- Single Course -->
-            <div class="single-course third-course">
-              <img src="img/Rectangle 15.jpg" class="img-fluid" alt="">
-              <h4 class="mt-4">Modern Psychology</h4>
-              <p>Designation</p>
-              <button class="btn btn-success">Buy Course</button>
-              <ul class="course-link mt-4">
-                <li>
-                  <i class="fas fa-calendar-week"><span>Start 20  April, 2021</span></i>
-                </li>
-                <li>
-                  <i class="fas fa-user-friends"><span>60 seats</span></i>
-                </li>
-              </ul>
+          <div class="col-xl-6 col-lg-6 col-md-6">
+            <!-- About Right -->
+            <div class="about-right">
+              <h1>About Me</h1>
+              <p>Hello This is Safin Ahmed. I am a web developer and I built this complete webpage. If you loved my template please let me know. If you want to hire me for making a beautiful templatel like this please contact with me.</p>
+              <button class="btn">Contact Me</button>
             </div>
           </div>
         </div>
@@ -207,100 +154,164 @@
 
 
 
-    <!-- TESTIMONIAL -->
-    <section class="testemonial course">
+    <!-- RECIPIRS -->
+    <section class="recipies">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4"></div>
-          <div class="col-lg-4">
-            <h2 class="text-center">Testimonial</h2>
-          </div>
-          <div class="col-lg-4"></div>
-        </div>
-        <div class="row">
-          <div class="col-lg-2"></div>
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-xl-3 col-lg-4">
-                <div class="testemonial-img">
-                  <img src="img/Ellipse 5.jpg" class="img-fluid text-center" alt="">
-                </div>
-              </div>
-              <div class="col-xl-9 col-lg-8">
-                <div class="testemonial-content">
-                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                </div>
-              </div>
+        <!-- Top Row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-7 text-center">
+            <div class="recipies-top">
+              <h1>My Recipies</h1>
+              <p>I am a baby cooker. I don't know any cooking skills. But Here are some of my favourite recipies that I personally like so much.</p>
             </div>
           </div>
-          <div class="col-lg-2"></div>
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="row">
+
+          <!-- Single Colmn 1-->
+          <div class="col-lg-4 col-md-4">
+            <div class="recipies-bottom">
+              <img src="images/food/1.jpg" alt="" class="img-fluid">
+              <h2>Fried Fish</h2>
+              <p>Taste the our special fried fish with the best quality ingredients. You will love it so much !</p>
+            </div>
+          </div>
+
+          <!-- Single Colmn 2-->
+          <div class="col-lg-4 col-md-4">
+            <div class="recipies-bottom">
+              <img src="images/food/1.jpg" alt="" class="img-fluid">
+              <h2>Fried Fish</h2>
+              <p>Taste the our special fried fish with the best quality ingredients. You will love it so much !</p>
+            </div>
+          </div>
+
+          <!-- Single Colmn 3-->
+          <div class="col-lg-4 col-md-4">
+            <div class="recipies-bottom">
+              <img src="images/food/1.jpg" alt="" class="img-fluid">
+              <h2>Fried Fish</h2>
+              <p>Taste the our special fried fish with the best quality ingredients. You will love it so much !</p>
+            </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+    </section>
+
+
+
+    <!-- SOCIAL FOLLOW -->
+    <section class="social-follow">
+      <div class="container">
+        <div class="row justify-content-center text-center social-bg">
+          <div class="col-3">
+            <div class="social-single">
+              <h2>700k</h2>
+              <p>Youtube Subscribers</p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="social-single">
+              <h2>2.4m</h2>
+              <p>Instagram Followers</p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="social-single">
+              <h2>100k</h2>
+              <p>Dribble Shot likes</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
 
 
     <!-- FOOTER -->
     <footer>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="footer-left">
-              <p>
-                Millions of people of all ages and from around the world are improving their lives with us
-              </p>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <!-- Footer Link -->
-            <div class="footer-link">
-              <h5>Course</h5>
-              <ul class="list-inline">
-                <li class=""><a href="#">Graphic Design</a></li>
-                <li class=""><a href="#">Web Design</a></li>
-                <li class=""><a href="#">Business</a></li>
-                <li class=""><a href="#">Marketing</a></li>
-                <li class=""><a href="#">Engineering</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <!-- Footer Link -->
-            <div class="footer-link">
-              <h5>Course</h5>
-              <ul class="list-inline">
-                <li class=""><a href="#">Graphic Design</a></li>
-                <li class=""><a href="#">Web Design</a></li>
-                <li class=""><a href="#">Business</a></li>
-                <li class=""><a href="#">Marketing</a></li>
-                <li class=""><a href="#">Engineering</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <!-- Footer Link -->
-            <div class="footer-link">
-              <h5>Course</h5>
-              <ul class="list-inline">
-                <li class=""><a href="#">Graphic Design</a></li>
-                <li class=""><a href="#">Web Design</a></li>
-                <li class=""><a href="#">Business</a></li>
-                <li class=""><a href="#">Marketing</a></li>
-                <li class=""><a href="#">Engineering</a></li>
-              </ul>
+        <!-- Footer Heading -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 text-center">
+            <div class="footer-heading">
+              <h1>FOOD<span> NETWORK</span></h1>
             </div>
           </div>
         </div>
-        
-            <div class="footer-bottom text-center text-white">
-              <p class="m-0">Copyright © 2020 www.com</p>
+
+        <!-- Footer Menu -->
+        <div class="row">
+          <div class="footer-menu">
+            <ul class="nav justify-content-center">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recipies</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="row">
+
+          <!-- Footer Bottom Single -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-bottom">
+              <p class="mb-0">© 2021 SafinAhmed@foodnetwork.com</p>
             </div>
+          </div>
+
+          <!-- Footer Bottom Single -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-bottom">
+              <p class="mb-0">
+                Eat healthy to live healthy. Live healthy to live happy.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="footer-bottom social-icon">
+              <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link"><img src="images/social-icons/facebook.png" alt="Facebook" class="img-fluid"></a></li>
+
+                <li class="nav-item"><a href="#" class="nav-link"><img src="images/social-icons/twitter.png" alt="Facebook" class="img-fluid"></a></li>
+
+                <li class="nav-item"><a href="#" class="nav-link"><img src="images/social-icons/youtube.png" alt="Facebook" class="img-fluid"></a></li>
+
+                <li class="nav-item"><a href="#" class="nav-link"><img src="images/social-icons/dribble.png" alt="Facebook" class="img-fluid"></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
-    
+
 
     <!-- JS LINKS -->
 

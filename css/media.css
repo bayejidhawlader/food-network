@@ -1,232 +1,349 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-     /* HEADER */
-    /* HEADER BANNER */
-    .banner-header {
+    /* TOP HEADER */
+    .top-header h2 {
+        font-size: 10px;
+        padding: 0 0;
+    }
+    /* HEADER */
+    header {
+        padding: 5px 0;
+    }
+    .logo h1 {
+        font-size: 16px;
+    }
+    .cart-menu {
+        display: none;
+    }
+    .menu ul li a {
+        font-size: 10px;
+        float: right;
+        padding: 3px 10px !important;
+        margin-top: -10px;
+    }
+    .custom-navbar-toggler {
+        font-size: 0.75rem;
+        margin-top: -10px;
+    }
+    .custom-navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+
+    /* BANNER */
+    .banner {
         padding: 20px 0;
     }
     .banner-left h1 {
-        font-size: 18px;
-        line-height: 30px;
-        margin-right: 0px;
+        font-size: 30px;
+        text-align: center;
     }
     .banner-left p {
-        line-height: 23px;
-        margin-right: 0px;
-    }
-    .banner-right {
-        margin-top: 20px;
-    }
-
-
-
-    /* SERVICE */
-    .service {
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-    .service-single {
-        margin-bottom: 10px;
-    }
-
-
-
-    /* COURSES */
-    .course {
-        padding-bottom: 30px;
-    }
-    .course h2 {
-        font-size: 20px;
-    }
-    .single-course {
         margin-right: 0;
-        margin-bottom: 10px;
-        padding: 20px 20px;
-    }
-
-
-
-    /* TESTIMONIAL */
-    .testemonial {
-        padding: 0;
-        padding-bottom: 30px;
-    }
-    .testemonial-img {
         text-align: center;
-        margin-left: 0;
     }
 
-    .testemonial-content p {
+
+
+    /* ABOUT */
+    .about {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .about-right h1 {
         text-align: center;
+    }
+    .about-right p {
+        margin-right: 0;
+        padding: 8px 0;
+        text-align: center;
+    }
+
+
+
+    /* RECIPIRS */
+    .recipies {
+        padding: 30px 0;
+    }
+    .recipies-top p {
+        margin-top: 0;
+        line-height: 24px;
+    }
+    .recipies-bottom {
+        padding: 10px 10px;
+    }
+    .recipies-bottom h2 {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .recipies-bottom p {
+        font-size: 13px;
+    }
+
+
+
+    /* SOCIAL FOLLOW */
+    .social-follow {
+        padding-bottom: 0;
+    }
+    .social-bg {
+        padding: 27px 20px;
+    }
+    .social-single h2 {
+        font-size: 16px;
+    }
+    .social-single p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* HEADER */
+    header {
+        padding: 5px 0;
+    }
+    .logo h1 {
+        font-size: 16px;
+    }
+    .cart-menu {
+        display: none;
+    }
+    .menu ul li a {
+        float: right;
+        padding: 7px 10px !important;
+        margin-top: 0;
+    }
+    .custom-navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+
+
+    
+    /* BANNER */
+    .banner {
+        padding: 26px 0;
+    }
+    .banner-left h1 {
+        font-size: 30px;
+    }
+    .banner-left p {
+        margin-right: 0;
+    }
+
+
+
+    /* ABOUT */
+    .about {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .about-right p {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+
+
+    /* RECIPIRS */
+    .recipies {
+        padding: 40px 0;
+    }
+    .recipies-top p {
+        margin-top: 0;
+    }
+    .recipies-bottom {
+        padding: 10px 10px;
+    }
+    .recipies-bottom h2 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .recipies-bottom p {
+        font-size: 14px;
+    }
+
+
+
+    /* SOCIAL FOLLOW */
+    .social-follow {
+        padding-bottom: 0;
+    }
+    .social-bg {
+        padding: 20px 16px;
+    }
+    .social-single h2 {
+        font-size: 30px;
+    }
+    .social-single p {
+        font-size: 9px;
     }
 
 
 
     /* FOOTER */
-    footer{
-        padding-bottom: 20px;
-    }
-    .footer-link {
-        margin-top: 20px;
-        /* text-align: center; */
-    }
-    .footer-bottom {
-        margin-top: 0;
-    }
+
     
     
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-   /* HEADER */
-    /* HEADER BANNER */
-    .banner-header {
-        padding: 30px 0;
-    }
-    .banner-left h1 {
-        font-size: 30px;
-        line-height: 40px;
-        margin-right: 0px;
-    }
-    .banner-left p {
-        line-height: 20px;
-        margin-right: 0px;
-    }
-    .banner-right {
-        margin-top: 20px;
-    }
-
-
-
-    /* SERVICE */
-    .service {
+    footer {
         padding-top: 30px;
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
-    .service-single {
-        margin-bottom: 10px;
-    }
-
-
-
-    /* COURSES */
-    .course {
-        /* padding: 60px 0; */
-        margin-bottom: 30px;
-    }
-    .course h2 {
-        font-size: 30px;
-    }
-    .single-course {
-        margin-right: 0;
-        margin-bottom: 20px;
-        padding: 100px 100px;
-    }
-
-
-
-
-    /* TESTIMONIAL */
-    .testemonial {
-        padding-bottom: 30px;
-    }
-    .testemonial-img {
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .testemonial-content p {
+    .footer-bottom p {
+        margin-top: 30px;
         text-align: center;
     }
-
+    .footer-bottom ul li a img {
+        width: 25px;
+    }
+    
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* HEADER */
-    /* HEADER BANNER */
-    .banner-header {
-        padding: 35px 0;
+    header {
+        padding: 5px 0;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .cart-menu {
+        display: none;
+    }
+    .menu ul li a {
+        float: right;
+        padding: 10px 15px !important;
+        margin-top: 0;
+    }
+    .custom-navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+
+    /* BANNER */
+    .banner {
+        padding: 30px 0;
     }
     .banner-left h1 {
-        font-size: 38px;
-        line-height: 40px;
-        margin-right: 0px;
+        font-size: 34px;
     }
     .banner-left p {
-        line-height: 23px;
-        margin-right: 0px;
-    }
-
-
-    /* SERVICE */
-    .service {
-        padding-top: 35px;
-        padding-bottom: 30px;
-    }
-    .service-single {
-        margin-bottom: 10px;
-    }
-
-
-    /* COURSES */
-
-    .course {
-        padding: 35px 0;
-    }
-    .single-course.third-course {
-        margin-top: 20px;
+        margin-right: 0;
     }
 
 
 
-    /* TESTIMONIAL */
-    .testemonial-img {
-        text-align: center;
-        margin-left: 0;
+    /* ABOUT */
+    .about {
+        padding-bottom: 25px;
+    }
+    .about-right p {
+        margin-right: 0;
+        padding: 10px 0;
     }
 
-    .testemonial-content p {
-        text-align: center;
+
+
+    /* RECIPIRS */
+    .recipies {
+        padding: 60px 0;
+    }
+    .recipies-top p {
+        margin-top: 0;
+    }
+    .recipies-bottom {
+        padding: 10px 10px;
+    }
+    .recipies-bottom h2 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .recipies-bottom p {
+        font-size: 15px;
     }
 
+
+
+    /* SOCIAL FOLLOW */
+    .social-follow {
+        padding-bottom: 40px;
+    }
+    .social-single p {
+        font-size: 13px;
+    }
+
+
+
+    /* FOOTER */
+    .footer-bottom p {
+        font-size: 11px;
+    }
+    .footer-bottom ul li a img {
+        width: 25px;
+    }
+    footer {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* HEADER */
-    /* HEADER BANNER */
-    .banner-left h1 {
-        margin-right: 30px;
+    .logo h1 {
+        font-size: 24px;
     }
-    .banner-left p {
-        margin-right: 50px;
+    .menu ul li a {
+        font-size: 18px;
+        padding: 0px 10px !important;
+    }
+    .cart-menu ul li a img {
+        width: 30%;
+        margin-top: -12px;
     }
 
 
-    /* COURSES */
-    .single-course {
+
+    /* ABOUT */
+    .about-right p {
         margin-right: 0;
-        padding: 20px 20px;
     }
 
 
 
-    /* TESTIMONIAL */
-    .testemonial-img {
-        margin-left: 70px;
+    /* RECIPIRS */
+    .recipies {
+        padding: 80px 0;
     }
-    .testemonial-content p {
-        margin-top: 0px;
+
+
+
+    /* SOCIAL FOLLOW */
+    .social-follow {
+        padding-bottom: 60px;
+    }
+    .social-single p {
+        font-size: 18px;
+    }
+
+
+
+    /* FOOTER */
+    .footer-bottom p {
+        font-size: 11px;
+    }
+    .footer-bottom ul li a img {
+        width: 25px;
     }
 }
 
 /* large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    /* HEADER BANNER */
-    .banner-left p {
-        margin-right: 240px;
-    }
    
 }
 

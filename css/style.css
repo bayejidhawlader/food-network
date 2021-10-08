@@ -1,184 +1,249 @@
 /* COMMON CSS */
 body{
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #828282;
     line-height: 1.5rem;
 }
 
 
 /* HEADER */
 header{
-    background-color: #F0FFF0;
+    padding: 20px 0;
 }
+.top-header{
+    background-color: #FC8B46;
+}
+.top-header h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 6px 0;
+    margin-top: 9px;
+}
+
 .custom-navber{}
+
+/* Logo */
 .logo{}
-.logo img{
-    width: 200px;
+.logo h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fba24f;
 }
-.logo img a{}
+.logo h1 span{
+    color: #575757;
+}
+
+
+/* Collaps Right Button */
+.custom-navbar-toggler{}
+
+/* Menu */
 .menu{}
 .menu ul{}
 .menu ul li{}
-.menu ul li:last-child a{}
 .menu ul li a{
-    color: #000 !important;
-    margin-right: 20px;
-    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333 !important;
+    padding: 10px 24px !important;
+    margin-top: -10px;
 }
 .menu ul li a:hover{
-    color: #21B573 !important;
-}
-.menu ul li button{
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    padding: 8px 24px;
-    border-radius: 50px;
+    background-image: linear-gradient(#FBA24F, #fc7f42);
+    border-radius: 30px;
 }
 
-/* HEADER BANNER */
-.banner-header{
-    padding: 60px 0;
+
+/* Cart Menu */
+.cart-menu{}
+.cart-menu ul{}
+.cart-menu ul li{}
+.cart-menu ul li a{}
+.cart-menu ul li a img{
+    width: 50%;
+}
+
+
+
+/* BANNER */
+.banner{
+    padding: 40px 0;
+    background-image: url(../images/female/Group\ 88.png);
+    background-repeat: no-repeat;
+    background-position: 1200px 400px;
 }
 .banner-left{}
-.banner-left h6{
-}
 .banner-left h1{
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 700;
-    line-height: 70px;
-    margin-right: 220px;
+    color: #575757;
 }
 .banner-left h1 span{
-    color: #21B573;
+    color: #fba24f;
 }
 .banner-left p{
-    color: #6C6B6B;
-    line-height: 36px;
-    margin-right: 228px;
+    margin-right: 100px;
 }
 .banner-left button{
-    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient( #FBA24F, #fc7f42);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
     text-transform: capitalize;
-    padding: 8px 24px;
-    border-radius: 50px;
+    border-radius: 30px;
+    padding: 16px 26px;
 }
 .banner-right{}
 .banner-right img{}
 
 
-/* SERVICE */
-.service{
-    padding: 60px 0;
+
+/* ABOUT */
+.about{
+    background-image: url(../images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 0;
 }
-.service-single{
-    padding: 35px 30px;
-    background-color: #F8FFFB;
-    text-align: center;
-    border-radius: 10px;
+.about-left{}
+.about-left img{}
+
+.about-right{}
+.about-right h1{
+    font-weight: 600;
+    color: #707070;
 }
-.service-single img{}
-.service-single h4{
-    color: #413960;
+.about-right p{
+    font-size: 18px;
+    margin-right: 180px;
+    padding: 40px 0;
+    line-height: 30px;
 }
-.service-single p{}
-.second-service{
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+.about-right button{
+    background-image: linear-gradient( #FBA24F, #fc7f42);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 30px;
+    padding: 16px 26px;
 }
 
 
-/* COURSES */
-.course{
-    padding: 60px 0;
+
+/* RECIPIRS */
+.recipies{
+    padding: 110px 0;
 }
-.course h2{
-    font-size: 36px;
+
+/* .Top Row */
+.recipies-top{}
+.recipies-top h1{
+    color: #707070;
+    font-weight: 600;
+}
+.recipies-top p{
+    color: #828282;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+/* .Single Colmn */
+.recipies-bottom{
+    padding: 20px 16px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 14px;
+    margin-top: 20px;
+}
+.recipies-bottom img{
+}
+.recipies-bottom h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #000;
+    padding: 20px 0;
+}
+.recipies-bottom p{
+    font-size: 18px;
+}
+
+
+
+/* SOCIAL FOLLOW */
+.social-follow{
+    padding-bottom: 80px;
+}
+.social-bg{
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+    padding: 70px 30px;
+}
+.social-single h2{
+    font-size: 48px;
+    color: #18191f;
     font-weight: 700;
-    text-transform: capitalize;
-    color: #413960;
-    margin-bottom: 30px;
 }
-/* Single Course */
-.single-course{
-    margin-right: 30px;
-    padding: 28px 28px;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-}
-.single-course img{}
-.single-course h4{
-    color: #413960;
-}
-.single-course p{
-    color: #585859;
-}
-.single-course button{
-    font-family: 'Roboto', sans-serif;
-    text-transform: capitalize;
-    padding: 8px 30px;
-    border-radius: 50px;
-}
-.course-link{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-.course-link li{}
-.course-link li i{
-    color: #585859;
-}
-.course-link li i span{
-    font-weight: 500;
-    margin-left: 10px;
-}
-.third-course{}
-
-
-
-/* TESTIMONIAL */
-.testemonial{
-    padding-bottom: 60px;
-}
-.testemonial-img{
-    margin-left: 90px;
-}
-.testemonial-img img{}
-
-.testemonial-content{}
-.testemonial-content p{
-    margin-top: 10px;
+.social-single p{
+    font-weight: 600;
 }
 
 
 
 /* FOOTER */
 footer{
-    background-color: #282531;
-    padding: 60px 0;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-bottom: 8;
+    background-color: #0B0D17;
 }
-.footer-left{}
-.footer-left p{
+
+/* Footer Heading */
+.footer-heading{}
+.footer-heading h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fba24f;
+}
+.footer-heading h1 span{
+    color: #575757;
+}
+
+/* Footer Menu */
+.footer-menu{}
+.footer-menu ul{}
+.footer-menu ul li{}
+.footer-menu ul li a{
+    font-size: 16px;
+    color: #FFF;
+}
+.footer-menu ul li a:hover{
     color: #fff;
 }
 
-.footer-link{}
-.footer-link h5{
+/* Footer Bottom */
+.footer-bottom{}
+.social-icon{}
+.footer-bottom p{
     color: #fff;
-}
-.footer-link ul{}
-.footer-link ul li{}
-.footer-link ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-}
-.footer-bottom{
+    font-size: 15px;
     margin-top: 50px;
 }
-.footer-bottom p{}
+.footer-bottom ul{}
+.footer-bottom ul li{}
+.footer-bottom ul li a{
+    margin-top: 48px;
+    padding: 0 13px;
+}
+.footer-bottom ul li a img{
+    width: 30px;
+}
 
+.footer-bottom ul li a i{
+    
+}
